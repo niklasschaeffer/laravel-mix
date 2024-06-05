@@ -1,6 +1,6 @@
 {
-    "name": "laravel-mix",
-    "version": "6.0.49",
+    "name": "laravel-mix-next",
+    "version": "6.0.50",
     "description": "The power of webpack, distilled for the rest of us.",
     "main": "src/index.js",
     "types": "types/index.d.ts",
@@ -19,11 +19,11 @@
         "mix": "./bin/cli.js",
         "laravel-mix": "./bin/cli.js"
     },
-    "repository": "JeffreyWay/laravel-mix",
+    "repository": "niklasschaeffer/laravel-mix",
     "bugs": {
-        "url": "https://github.com/JeffreyWay/laravel-mix/issues"
+        "url": "https://github.com/niklasschaeffer/laravel-mix/issues"
     },
-    "homepage": "https://github.com/JeffreyWay/laravel-mix#readme",
+    "homepage": "https://github.com/niklasschaeffer/laravel-mix#readme",
     "keywords": [
         "laravel",
         "webpack",
