@@ -29,7 +29,7 @@ module.exports = class BrowserSync extends Component {
      * webpack plugins to be appended to the master config.
      */
     webpackPlugins() {
-        let BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+        let BrowserSyncPlugin = require('browser-sync-v3-webpack-plugin');
 
         return [new BrowserSyncPlugin(this.config(), { reload: false })];
     }
